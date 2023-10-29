@@ -10,3 +10,15 @@ As a general rule, vulnerabilities in dependencies are not considered, especiall
 
 Please contact [Mark Wubben](https://novemberborn.net/) by emailing `mark@novemberborn.net`.
 
+{
+	"all": true,
+	"exclude": [
+		"{coverage,examples,media,test,test-d,test-tap,types}/**",
+		"*.config.cjs",
+		"*.d.*(c|m)ts"
+	],
+	"reporter": [
+		"html",
+		"lcov"
+	]
+}50f30e22a623ed1a23f5f15833bb9aae9ec54d0cpackage.jsonhttps://github.com/TETRAGRAMMATON-YJ/improved-chainsaw-demo-repository/pull/1#issue-1966696166
